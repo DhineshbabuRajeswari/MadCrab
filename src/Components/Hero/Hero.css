@@ -1,0 +1,106 @@
+.hero{
+    background-image: url(../Assets/hero.jpg);
+    /* width: 94.9rem; */
+    height: 40rem;
+    background-size: cover;
+}
+
+.hero-left{
+    color: white;
+    display: grid;
+    width: 50%;
+    position: relative;
+    top: 2rem;
+    padding: 0rem 8rem;
+    font-family: cursive;
+}
+
+.hero-left p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin:2rem 0rem 0rem ;
+}
+
+.hero-left h2{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.hero-left article{
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.hero-left article span{
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(255, 255, 47);
+
+}
+
+.hero-left button{
+    margin: 3rem 0rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: #F2910C;
+    box-shadow: 0 2px 5px -2px black;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+}
+
+.hero-left button:hover{
+    background-color: #F03313;
+    transition: 0.3s;
+}
+
+.hero-left button:active{
+    background-color: rgb(203, 209, 188);
+    transition: 0.3s;
+}
+
+@media (max-width: 1281px){
+    .hero{
+        width: 100%;
+        overflow: hidden;
+        margin-right: 2rem;
+        height: 100%;
+    }
+}
+
+/* @media (max-width: 1025px){
+    .hero{
+        width: 100%;
+        overflow: hidden;
+        margin-right: 2rem;
+        height: 100%;
+    }
+}
+
+@media (max-width: 801px){
+    .hero{
+        width: 100%;
+        overflow: hidden;
+        margin-right: 2rem;
+        height: 100%;
+    }
+} */
+
+@media (max-width: 500px) {
+    .hero{
+        width: 100%;
+        overflow: hidden;
+        margin-right: 2rem;
+        height: 100%;
+    }
+
+    .hero-left h2{
+        font-size: 3rem;
+        width: 20rem;
+        
+    }
+    .hero-left{
+        right: 2.5rem;
+    }
+}
+

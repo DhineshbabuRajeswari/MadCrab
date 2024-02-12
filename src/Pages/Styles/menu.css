@@ -1,0 +1,8 @@
+.menupage{
+    display:flex;
+    align-items: center;
+    padding: 4rem 4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6rem;
+}

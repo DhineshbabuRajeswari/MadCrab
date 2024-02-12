@@ -1,0 +1,321 @@
+body{
+    display: inline;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.signupform{
+    width: 36rem;
+    height: 46rem;
+    align-items: center;
+    padding-top: 4rem;
+}
+.loginform{
+    width: 32rem;
+    height: 36rem;
+    align-items: center;
+}
+
+.forgot_form{
+    width: 22rem;
+    height: 30rem;
+    align-items: center;
+    padding: 4.5rem ;
+}
+
+.change_form{
+    width: 22rem;
+    height: 28rem;
+    align-items: center;
+    padding: 4.5rem ;
+}
+
+#formspace{
+    margin-top: 3rem;
+}
+
+#formpadding{
+    margin-top: 2rem;
+}
+
+.commonform{
+    background-color: rgba(0, 0, 0, 0.378);
+    margin-top: 6rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+._2Use{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    display: inline-flex;
+}
+
+.linkmar{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight: bold;
+}
+
+._2Buttons1{
+    color: white;
+    letter-spacing: 1.2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #020202;
+    font-size: 1.2rem;
+    padding: 8px 30px;
+    text-decoration: none;
+    display:inline-block ;
+    border-radius: 1.2rem;
+    border-color: #ff0000;
+    text-shadow: 2px 2.5px 2px rgb(8, 0, 0);
+}
+
+#button1{
+    margin: 3rem 0rem 2rem 12rem;
+}
+
+#button2{
+    margin: 2rem 0rem 0rem 9rem;
+}
+
+#button3{
+    margin: 2rem 0rem 0rem 11rem;
+}
+
+.buttontext{
+    color: white;
+}
+
+._inp{
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 15rem;
+    border-color: #01051c;
+    border-style: double 5px;
+}
+
+#CountryCode{
+    width: 3rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    border-color: #01051c;
+    border-style: double 5px;
+}
+
+.spacing{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    margin-left:3.2rem ;
+    display: inline-flex;
+    justify-content: space-between;   
+    font-style: oblique; 
+    font-weight: bold;
+}
+
+#address{
+    height: 6rem;
+    width: 15rem;
+}
+
+._2Links{
+    text-decoration: none;
+
+}
+
+._focus{
+    color: white;
+    text-shadow: 2px 2.5px 2px rgb(17, 17, 17);
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    display: inline-flex;  
+    padding: 0%; 
+}
+li{
+    padding: 5px;
+}
+
+.header1{
+    position: relative;
+    width: 95.6rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.378);
+    border-radius: 12px;
+    box-shadow: 1.1rem 1rem 1rem;
+    font-size: large;
+}
+
+.header_div1{
+    padding-left: 1rem;
+    width: 30%;
+    align-items: center;
+}
+
+
+.header_div3{
+    padding-left: 0%;
+    width: 30%;
+}
+
+.header_div3 ul{
+    position: relative;
+    padding-left: 8%;
+}
+
+.sp_char{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 2rem;
+    color: white;
+    text-shadow: 2px 5px 2px rgb(47, 42, 42);
+    text-align: center;
+}
+h3{
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px rgb(47, 42, 42);  
+    font-weight: bold;
+}
+
+#finalalignment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1div
+{
+    width: 30%;
+}
+
+#h1div{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+#logo{
+    border-radius: 2rem;
+}
+
+
+input:hover{
+    background-color:rgb(237, 240, 149);
+}
+
+button:hover{
+    background-color:rgb(248, 244, 8);
+    border-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:active{
+    background-color:rgb(24, 248, 8);
+}
+
+._2label{
+    width: 10rem;
+    padding-left: 2.7rem;
+}
+
+.signlabel{
+    color: white;
+    text-shadow: black;
+    width: 13.6rem;
+}
+
+#gender1{
+    color: white;
+    text-shadow: black;
+}
+
+#mobilenumber{
+    color: white;
+    text-shadow: black;
+    width: 10.25rem;
+}
+
+
+/* -------------------------------------------------------------------- */
+
+/* Forgot Form */
+
+.forgotform{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    display: block;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.article{
+    padding-left: 1rem;
+    margin-top: 2rem;
+    width: 20.5rem;
+    text-shadow: 2px 2px 4px rgb(9, 8, 8);
+    color: #8cff00;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    text-justify: newspaper;
+}
+
+.for_inp{
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 20rem;
+    border-color: #01051c;
+    border-style: double 5px;
+}
+
+.forgotinputdiv{
+    margin-bottom: 1rem;
+    width: 16rem;
+    text-align: left;
+    font-style: oblique; 
+}
+
+.buttonalignment{
+padding-left: 7rem;
+}
+
+#enterpasssword{
+    margin-top: 3.6rem;
+}
+

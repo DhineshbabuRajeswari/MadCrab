@@ -1,0 +1,195 @@
+.footer{
+    display: flex;
+    background: linear-gradient(to bottom, #ffffff, #0dfed2);
+    justify-content: space-between;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.locations{
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 15%;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    text-shadow: 0 2px 5px -2px black;
+}
+
+.locations span{
+    align-items: center;
+    padding: 2rem;
+}
+
+.contacts{
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 18rem;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+}
+
+.contacts span{
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.footermedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flexbox;
+    width: 30%;
+}
+
+.footerlogo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    gap: 1rem;
+    padding: 2rem 0rem 4rem 0rem;
+    font-size: 1rem;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerlogo img{
+    height:8.75rem;
+    width:18rem;
+}
+
+.stayhungry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+}
+
+.socialicons{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.364);
+    background: linear-gradient(to bottom, #ffffff, #0dfed2);
+    border-radius: 1rem;
+   }
+
+.socialicons img {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+li{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(255, 89, 0);
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 1281px){
+    .socialicons{
+        display: flex;
+        width: 16rem;
+    }
+
+    .socialicons img{
+        padding: .5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 907px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: auto;
+    }
+
+    .locations{
+        align-items: center;
+        /* padding-left:0rem ; */
+        margin-right: 8rem;
+    }
+}
+
+
+@media (max-width: 801px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: auto;
+    }
+
+    .contacts{
+        /* width: 20rem; */
+        margin-left: 5rem;
+    }
+
+    .locations{
+        align-items: center;
+        /* padding-left:0rem ; */
+        margin-right: 5rem;
+    }
+
+    .stayhungry{
+        width: 12rem;
+        margin:0rem 0rem 0rem 4rem;
+    }
+
+    .socialicons{
+        display: flex;
+        width: 24rem;
+        margin-left: 4rem;
+    }
+
+    .footerlogo{
+        width: 16rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-left:2rem ;
+    }
+
+    .contacts{
+        width: 18rem;
+    }
+
+    .stayhungry{
+        display: none;
+    }
+
+    .footerlogo{
+        width: 16rem;
+    }
+
+
+    .socialicons{
+        display: none;
+    }
+}

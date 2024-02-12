@@ -1,0 +1,30 @@
+.savorous{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    height: 150vh;
+    padding: 0rem 4rem;
+}
+
+.savorous-item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.savorous h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(5, 0, 0, 0.723);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (min-width: 320px) {
+    .savorous{
+        height: 100%;
+    }
+}
+
